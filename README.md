@@ -1,25 +1,37 @@
-# Assignment 2 - Beginner Auth Flow
+# LearnSphere Assignment 3 - UI/UX Styling with Bootstrap 5
 
-This is a simple web project designed for beginners to understand how basic HTML pages and navigation work. It includes a login system, registration, password recovery, and a dashboard.
+This repository contains the front-end implementation for the LearnSphere Assignment 3. The objective of this assignment is to integrate **Bootstrap 5** and custom CSS to style 5 HTML pages: Login, Registration, Forgot Password, Reset Password, and Dashboard.
 
-# Project Structure
+## 🚀 Features & Technologies
 
-- `index.html`: The main login page (Home).
-- `register.html`: The account creation page.
-- `forgot-password.html`: The page to request a password reset.
-- `reset-password.html`: The page to enter a new password.
-- `dashboard.html`: The private page you see after logging in.
+- **Bootstrap 5 Integration**: Uses Bootstrap 5 CDN for CSS & JS.
+- **Bootstrap Icons**: Implemented for clean and professional vector iconography.
+- **Custom CSS File (`styles.css`)**: Overrides default styling with a modern premium look.
+  - Custom Color Scheme (Variables)
+  - Google Fonts (`Outfit`)
+  - Smooth hover effects and transitions
+  - Box shadows and subtle glass-morphism effects (backdrop-filter)
+- **Responsive Design**: Fully functional across Desktop, Laptop, Tablet, and Mobile views.
+- **No Pre-Built Templates**: Code is written from scratch utilizing standard components.
 
-# How to Run the Project
+## 📁 Project Structure
 
-1. Open the project folder (**Assignment2-cp**) on your desktop.
-2. Double-click on `index.html`.
-3. It will open in your default web browser (Chrome, Edge, etc.).
-4. Use the buttons and links to navigate between the different pages.
+```text
+├── index.html                 # Login Page
+├── register.html              # Registration Page
+├── forgot-password.html       # Forgot Password Page
+├── reset-password.html        # Reset Password Page
+├── dashboard.html             # Main Dashboard Page
+├── styles.css                 # Custom Styling Application
+├── README.md                  # Project Documentation
+└── Screenshots/               # Folder for application screenshots
+```
 
-# Key Features
-- **Pure HTML**: No CSS or complex JavaScript, making it very easy to read.
-- **Easy Navigation**: Uses simple links and buttons to move between pages.
-- **Beginner Friendly**: Uses the most basic HTML tags like `<h1>`, `<input>`, `<button>`, and `<a>`.
+## 💻 How to Run
 
-This project focuses on the core structure of a website without the distraction of styling, helping you learn how data inputs and page links work!
+1. Clone or download this repository.
+2. Open any of the HTML files (e.g., `index.html`) in your favorite web browser.
+3. No build tools or servers are required.
+
+## 📸 Screenshots
+*(Add your screenshots in the `Screenshots` folder and reference them here if needed)*
